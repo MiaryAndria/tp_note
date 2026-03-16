@@ -64,7 +64,7 @@ a:hover {
 }
 
 .navbar-container {
-    height: 48px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,9 +74,9 @@ a:hover {
 }
 
 .navbar-brand {
-    font-weight: 600;
+    font-weight: bold;
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 3.0rem;
 }
 
 .navbar-nav {
