@@ -1,12 +1,16 @@
 package com.example.dao;
 
-import com.example.model.Parametre;
-import com.example.model.Matiere;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import java.util.Optional;
+
+import com.example.model.Matiere;
+import com.example.model.Parametre;
 
 @Repository
 public interface ParametreDAO extends JpaRepository<Parametre, Long> {
-    Optional<Parametre> findByMatiere(Matiere matiere);
+
+    List<Parametre> findByMatiere(Matiere matiere);
+
 }

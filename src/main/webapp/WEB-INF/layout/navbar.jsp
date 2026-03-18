@@ -1,8 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
     <nav class="navbar">
         <div class="navbar-container">
-            <a href="${pageContext.request.contextPath}/" class="navbar-brand">
-                <i class="fas fa-paper-plane" style="margin-right: 8px;"></i> NavetteApp
+            <a href="${pageContext.request.contextPath}/" class="navbar-brand">ETU3530
             </a>
             <div class="navbar-nav">
                 <a href="${pageContext.request.contextPath}/notes" class="nav-link">
@@ -25,8 +24,11 @@
     </nav>
 
     <style>
-        .nav-link i {
-            margin-right: 4px;
-            font-size: 0.9em;
+        .navbar-brand {
+            font-size: 3.0rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
+
     </style>
